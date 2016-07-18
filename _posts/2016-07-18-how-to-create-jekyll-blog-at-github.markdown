@@ -36,7 +36,7 @@ tags: [jekyll, github, github-pages, howto]
     <div>
         {% if site.tags[page.tag] %}
             {% for post in site.tags[page.tag] %}
-                <a href="{{ post.url }}/">{{ post.title }}</a>
+                <a href="{{ post.url }}">{{ post.title }}</a>
             {% endfor %}
         {% else %}
             <p>There are no posts for this tag.</p>
@@ -76,7 +76,7 @@ tags: [jekyll, github, github-pages, howto]
     ---
     layout: blog_by_tag
     tag: jekyll
-    permalink: /blog/tag/jekyll/
+    permalink: /blog/tag/Jekyll/
     ---
     ```
 
