@@ -2,11 +2,10 @@
 layout: post
 title:  "How to create Jekyll blog and host at Github"
 date:   2016-07-18 21:49:15 +0800
-categories: jekyll update blog github
+categories: jekyll blog github
 ---
 
 
-### prepareation at Github
 - create a repo at github, with name $username.github.io `$username` is your github account name
 - clone this repo to your local drive, here let's say `D:/$username.github.io`
   - `git clone https://github.com/$username/$username.github.io.git`
@@ -18,11 +17,3 @@ categories: jekyll update blog github
 
 
 [Jekyll website](https://jekyllrb.com/)
-
-
-
-
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
