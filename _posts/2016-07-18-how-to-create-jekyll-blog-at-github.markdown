@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to create Jekyll blog and host at Github"
+title:  "How to create Jekyll blog, host at GitHub and add tagging"
 date:   2016-07-18 21:49:15 +0800
 categories: jekyll github
 tags: [jekyll, github, github-pages, howto]
