@@ -7,13 +7,15 @@ tags: [powershell]
 
 ---
 
+[credit: bensound, the royalty free music](http://www.bensound.com/)
+[inspired by Wiwi Kuan（官大為）: Google Translate Song](https://www.youtube.com/watch?v=mqsrPNXEGdc)
+
+
 it's from the idea of IE automation and I used in company's Lunch & Learn opening, talking about PowerShell 
 
 [![PowerShell To Play With Goolge Translate](http://img.youtube.com/vi/YVLo2UGUrEI/0.jpg)](http://www.youtube.com/watch?v=YVLo2UGUrEI)
 
 > take a look at the source code
-
-[credit: bensound, the royalty free music](http://www.bensound.com/)
 
 ``` powershell
 $googleUrl="https://translate.google.co.in/#en/de/"
