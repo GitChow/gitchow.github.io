@@ -6,3 +6,5 @@ howto:
   name: HowTo
 github-pages:
   name: GitHub-Pages
+powershell:
+  name: PowerShell
