@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chrome Extension to export Perfect Resume Export From LinkedIn"
+title:  "Chrome extension to export ferfect resume from LinkedIn"
 date:   2016-08-15 21:18:15 +0800
 categories: jekyll update
 tags: [Chrome,LinkedIn]
