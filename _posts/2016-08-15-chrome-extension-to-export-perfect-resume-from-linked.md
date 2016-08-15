@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Chrome extension to export ferfect resume from LinkedIn"
+title:  "Chrome extension to export perfect resume from LinkedIn"
 date:   2016-08-15 21:18:15 +0800
 categories: jekyll update
 tags: [Chrome,LinkedIn]
@@ -20,7 +20,7 @@ Here comes my version of chrome extension to have perfect resume export from Lin
 
 check out [https://github.com/GitChow/PrintNicely](https://github.com/GitChow/PrintNicely)
 
-so, a quick figure, after using this, my CV comes to **2** pages.here is how it looks like:</br>
+so, a quick figure, after using this, my CV comes to **2** pages.here is how it looks like:
 
 ![optimized CV part 1](https://gitchow.github.io/images/linkedin_cv_chrome/optimizedResume_part1.png)
 ![optimized CV part 2](https://gitchow.github.io/images/linkedin_cv_chrome/optimizedResume_part2.png)
