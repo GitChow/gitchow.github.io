@@ -6,21 +6,23 @@ categories: jekyll update
 tags: [Chrome,LinkedIn]
 
 ---
+![this is a such cover image, just play around](https://gitchow.github.io/images/linkedin_cv_chrome/perfect-resume.png)
+
 
 I don't know since when I started to use LinkedIn, but I just remember the first time I saw it, I liked it a lot.
-WHY? because your profile structure is made so clear and comprehensive, that you won't miss or mess anything. Neat!
+WHY? because the profile structure is made so clear and information fields are comprehensive, that you won't miss or mess anything. Neat!
 
-Everything goes well until one day I find I want to get a new job: there should be an export function existing?
-Yes, right, there is. BUT... the layout really sucks: 
-my exported one is **6 pages** and it's hardly readable due to the bad structure.(maybe the paied subscription is much better...?)
+Everything went well until one day I wanted to get a new job: there should be an export function provided?
+Yes, there is. BUT... the layout really sucks: 
+My exported one is **6 pages** and it's hardly readable due to the bad structure.(maybe the paied subscription is much better...?:sweat_smile:)
 
-After trying out existing one in Chrome extension store, I decided to reinvent the wheel.
+After trying out some options in Chrome extension store, I decide to reinvent the wheel.
 
-Here comes my version of chrome extension to have perfect resume export from LinkedIn:
+Here comes my version of chrome extension to make perfect resume export from LinkedIn:
 
 check out [https://github.com/GitChow/PrintNicely](https://github.com/GitChow/PrintNicely)
 
-so, a quick figure, after using this, my CV comes to **2 pages**.here is how it looks like:
+so, a quick figure, after using this, my resume comes to **2 pages**. here is how it looks like:
 
 ![optimized CV part 1](https://gitchow.github.io/images/linkedin_cv_chrome/optimizedResume_part1.png)
 ![optimized CV part 2](https://gitchow.github.io/images/linkedin_cv_chrome/optimizedResume_part2.png)
@@ -33,7 +35,7 @@ to build the chrome extension, the first important file is "manifest.json", wher
 - permission
 - background script (most important for this case, to call script)
 
-and in background script, the inject js and css file is defined
+and in background script, the injected js and css file are defined
 
 ```javascript
 chrome.browserAction.onClicked.addListener(function(tab) {
@@ -42,4 +44,4 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 });
 ```
 
-so, we can do a lot via js and css injection, maybe even design some resume template to sell?! :smile::smile: 
+hmmm, maybe I need to design and implement some more sexy resume template to sell?! :scream::scream:
