@@ -8,25 +8,27 @@ tags: [Chrome,LinkedIn]
 ---
 
 I don't know since when I started to use LinkedIn, but I just remember the first time I saw it, I liked it a lot.
-WHY? because the CV structure is made so clear and so comprehensive, so you won't miss or mess anything. Neat!
+WHY? because your profile structure is made so clear and comprehensive, that you won't miss or mess anything. Neat!
 
-everything goes well until one day I find I want to get a new job: there should be an export function existing?
-Yes, right, there is. BUT... the layout really sucks: WHY? 
+Everything goes well until one day I find I want to get a new job: there should be an export function existing?
+Yes, right, there is. BUT... the layout really sucks: 
 my exported one is **6 pages** and it's hardly readable due to the bad structure.(maybe the paied subscription is much better...?)
 
 After trying out existing one in Chrome extension store, I decided to reinvent the wheel.
 
-Here comes my version of chrome extension to have perfect CV export from LinkedIn:
+Here comes my version of chrome extension to have perfect resume export from LinkedIn:
 
-check out https://github.com/GitChow/PrintNicely
+check out [https://github.com/GitChow/PrintNicely](https://github.com/GitChow/PrintNicely)
 
-so, a quick figure, after using this, my CV comes to **2** pages.here is how it looks like:
+so, a quick figure, after using this, my CV comes to **2** pages.here is how it looks like:</br>
+
 ![optimized CV part 1](https://gitchow.github.io/images/linkedin_cv_chrome/optimizedResume_part1.png)
 ![optimized CV part 2](https://gitchow.github.io/images/linkedin_cv_chrome/optimizedResume_part2.png)
 
-techical part, basically both new css and javascript are injected into the web page to re-layout and also mapulate some data(contact section)
+techical part: both new css and javascript are injected into the web page to re-layout and also mapulate some data(contact section)
 
 to build the chrome extension, the first important file is "manifest.json", where you define
+
 - your extension name/description/version
 - permission
 - background script (most important for this case, to call script)
