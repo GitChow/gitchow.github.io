@@ -32,6 +32,7 @@ to build the chrome extension, the first important file is "manifest.json", wher
 - background script (most important for this case, to call script)
 
 and in background script, the inject js and css file is defined
+
 ```javascript
 chrome.browserAction.onClicked.addListener(function(tab) {
   chrome.tabs.executeScript(null, {file: "inject.js"});
