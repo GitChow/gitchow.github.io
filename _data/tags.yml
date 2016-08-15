@@ -8,3 +8,7 @@ github-pages:
   name: GitHub-Pages
 powershell:
   name: PowerShell
+Chrome:
+  name: Chrome
+LinkedIn:
+  name: LinkedIn
