@@ -20,7 +20,7 @@ Here comes my version of chrome extension to have perfect resume export from Lin
 
 check out [https://github.com/GitChow/PrintNicely](https://github.com/GitChow/PrintNicely)
 
-so, a quick figure, after using this, my CV comes to **2** pages.here is how it looks like:
+so, a quick figure, after using this, my CV comes to **2 pages**.here is how it looks like:
 
 ![optimized CV part 1](https://gitchow.github.io/images/linkedin_cv_chrome/optimizedResume_part1.png)
 ![optimized CV part 2](https://gitchow.github.io/images/linkedin_cv_chrome/optimizedResume_part2.png)
@@ -42,4 +42,4 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 });
 ```
 
-so, we can do a lot via js and css injection, maybe even design some CV template to sell?! :smile::smile:
+so, we can do a lot via js and css injection, maybe even design some resume template to sell?! :smile::smile: 
